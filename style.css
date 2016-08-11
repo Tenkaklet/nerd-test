@@ -1,21 +1,18 @@
-section {
 
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 
 .key {
+  width: 50%;
+  height: 300px;
   border: 1px solid red;
-  margin: 10px 0 0 0;
-  flex: 0.1;
+}
+
+.key li {
+  text-transform: uppercase;
+  text-align: center;
 }
 .value {
-  margin: 10px 0 0 0;
+  width: 50%;
+  height: 300px;
   border: 1px solid red;
-  flex: 0.4;
 }
