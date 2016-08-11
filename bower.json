@@ -1,0 +1,13 @@
+{
+  "name": "API",
+  "homepage": "n",
+  "authors": [
+    "Max Carlquist <tenkaklet@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
