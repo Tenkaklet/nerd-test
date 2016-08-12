@@ -17,5 +17,7 @@ $(function () {
     keyDiv.click(function () {
       alert($(this)[0].innerText);
     });
-  } 
+  } else {
+    
+  }
 });
