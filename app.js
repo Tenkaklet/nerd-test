@@ -13,4 +13,9 @@ $(function () {
       valueDiv.append(valTemp);
     });
   });
+  if ($(window).width() < 600) {
+    keyDiv.click(function () {
+      alert($(this)[0].innerText);
+    });
+  } 
 });
