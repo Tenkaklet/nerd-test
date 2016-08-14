@@ -13,11 +13,13 @@ $(function () {
       valueDiv.append(valTemp);
     });
   });
-  if ($(window).width() < 600) {
-    keyDiv.click(function () {
-      alert($(this)[0].innerText);
-    });
-  } else {
-    
-  }
+  keyDiv.click(function () {
+    if ($(window).width() < 600) {
+      var array = [];
+      var string = ($(this)[0].innerText);
+      var res = string.split('').reverse(1);
+      var reverse = res.join('').trim();
+      alert(reverse);
+    }
+  });
 });
